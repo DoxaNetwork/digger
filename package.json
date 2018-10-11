@@ -1,0 +1,25 @@
+{
+  "name": "digger",
+  "version": "1.0.0",
+  "description": "ipfs service for toasty",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DoxaNetwork/digger.git"
+  },
+  "author": "Travis Hairfield",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DoxaNetwork/digger/issues"
+  },
+  "homepage": "https://github.com/DoxaNetwork/digger#readme",
+  "dependencies": {
+    "ipfs-api": "^24.0.2",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "cors": "^2.8.4"
+  }
+}
